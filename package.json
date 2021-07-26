@@ -1,0 +1,23 @@
+{
+  "name": "1.-belajarjavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "JS_Array.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siska199/-Belajar-Dasar-Pemrograman-JavaScript-by-Dicoding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siska199/-Belajar-Dasar-Pemrograman-JavaScript-by-Dicoding/issues"
+  },
+  "homepage": "https://github.com/siska199/-Belajar-Dasar-Pemrograman-JavaScript-by-Dicoding#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="kalkulator.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div class="flex-container-column card">
+        <div class="display">
+            <h1 id="displayNumber">0</h1>
+        </div>
+
+        <div class="flex-container-row">
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box negative">+/-</div>
+        </div>
+
+        <div class="flex-container-row">
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box operator">-</div>
+        </div>
+
+        <div class="flex-container-row">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box operator">+</div>
+        </div>
+
+        <div class="flex-container-row">
+            <div class="box">CE</div>
+            <div class="box">0</div>
+            <div class="box equals double">=</div>
+        </div>
+        
+    </div>
+    <div class="history card">
+        <h2>Riwayat Perhitungan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Angka Pertama</th>
+                    <th>Operator</th>
+                    <th>Angka Kedua</th>
+                    <th>Hasil</th>
+                </tr>
+            </thead>
+            <tbody id="historyList"></tbody>
+        </table>
+    </div>
+    <script scr="kalkulator.js"></script>
+    <script scr="storage.js"></script>
+    </body>
+</html>
